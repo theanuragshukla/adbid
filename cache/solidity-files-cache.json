@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/anurag/blockchain/adbid/contracts/AdBid.sol": {
+      "lastModificationDate": 1666786048694,
+      "contentHash": "da4f4bc32358ed7538fbcf4365e2fd70",
+      "sourceName": "contracts/AdBid.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.9.0"
+      ],
+      "artifacts": [
+        "AdBid"
+      ]
+    }
+  }
+}

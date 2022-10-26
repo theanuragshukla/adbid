@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="style.css">
+		<script src="https://cdn.ethers.io/scripts/ethers-v3.min.js" charset="utf-8" type="text/javascript"</script>
+		<script src="./abi.js" async></script>
+		<script src="./script.js" defer></script>
+</head>
+<body>
+	<div class="super">
+		<nav id="nav" class="flex nav">
+			<div class="logo">
+				<h2>
+					AdBid
+				</h2>
+
+			</div>
+			<div class="manage">
+				<button>manage</button>
+			</div>
+		</nav>
+		<div class="flex controls">
+			<div class="flex section">
+				<h2>Your Information</h2>
+				<ul>
+					<li>Your address:<span>0xEcY...DC10</span></li>
+				</ul>
+				<p>
+				Please Connect your Ethereum wallet
+				</p>
+				<button>Connect</button>
+			</div>
+			<div class="flex section">
+				<h2>contract information</h2>
+				<ul>
+					<li>contract address:<span>0x6E2...9E4f</span></li>
+					<li>price: <span>3000 wei</span></li>
+					<li>current Bidder:  <span>0x6E2...9E4f</span></li>
+					<li>CID:<span>Qmgr54yeyr6etrfhgfte5r766eyf</span></li>
+				</ul>
+			</div>
+			<div class="flex section">
+				<h2>Bid Now</h2>
+				<input type="text" id="bidAmt" class="bidInp" placeholder="Enter the bid price">
+				<button>Bid</button>
+			</div>
+<div class="flex section">
+				<h2>Update CID</h2>
+				<input type="text" id="bidAmt" class="bidInp" placeholder="Enter new CID">
+				<button>Update</button>
+			</div>
+		</div>
+		<div id="main" class="main">
+		</div>
+	</div>
+</body>
+</html>
